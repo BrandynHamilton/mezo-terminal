@@ -1,0 +1,38 @@
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node.js
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Build artifacts
+build/
+dist/
+*.build
+
+# Temporary files
+*.tmp
+*.temp
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.venv/

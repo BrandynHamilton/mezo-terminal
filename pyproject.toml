@@ -1,0 +1,16 @@
+[project]
+name = "tbtc-terminal"
+version = "0.1.0"
+description = "Multi-signature Bitcoin treasury vault for institutional custody on Mezo"
+requires-python = ">=3.11"
+dependencies = [
+    "web3[tester]>=7.0,<8",
+    "pytest>=8.0",
+    "pytest-asyncio>=0.24",
+    "eth-abi>=5.0",
+    "eth-account>=0.13",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
